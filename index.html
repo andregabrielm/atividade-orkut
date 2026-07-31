@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Perfil - Orkut</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef3f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #25b4ed;
+            padding: 10px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .profile-left {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            width: 250px;
+        }
+
+        .profile-right {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            flex-grow: 1;
+        }
+
+        .profile-photo {
+            width: 180px;
+            height: 180px;
+            background: #ddd;
+            margin-bottom: 10px;
+        }
+
+        .profile-info {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .personal-info {
+            border-top: 1px solid #ddd;
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+
+        .personal-info p {
+            margin: 5px 0;
+            font-size: 13px;
+        }
+
+        .personal-info strong {
+            color: #666;
+        }
+
+        .friends-box {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .friends-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .friend-item {
+            text-align: center;
+        }
+
+        /* Estilo atualizado para as imagens dos amigos */
+        .friend-photo {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 4px;
+            display: block;
+            margin: 0 auto 5px;
+        }
+
+        h2 {
+            color: #25b4ed;
+            font-size: 18px;
+            margin-top: 0;
+        }
+
+        .status-box {
+            background: #eef3f5;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>orkut</h1>
+    </div>
+
+    <div class="container">
+        <div class="profile-left">
+            <div class="profile-photo"></div>
+            <h2>André Gabriel Mossner</h2>
+            
+            <div class="personal-info">
+                <p><strong>relacionamento:</strong> solteiro(a)</p>
+                <p><strong>aniversário:</strong> 08 de dezembro</p>
+                <p><strong>idade:</strong> 15</p>
+                <p><strong>moro:</strong> paraná</p>
+                <p><strong>país:</strong> Brasil</p>
+                <p><strong>cidade natal:</strong> matelandia</p>
+                <p><strong>altura:</strong> 1,85m</p>
+                <p><strong>humor:</strong> feliz :)</p>
+                <p><strong>fumo:</strong> não</p>
+                <p><strong>bebo:</strong> não</p>
+                <p><strong>filhos:</strong> não</p>
+                <p><strong>animais de estimação:</strong> sim</p>
+                <p><strong>escolaridade:</strong> 2 ano do enssino médio</p>
+                <p><strong>idiomas:</strong> português</p>
+                <p><strong>interesses no orkut:</strong>
+                    <br>- amigos
+                    <br>- contatos profissionais
+                </p>
+                <p><strong>quem sou eu:</strong> 
+                    <br>um lutador que gosta de ficar de boa</p>
+            </div>
+        </div>
+
+        <div class="profile-right">
+            <div class="status-box">
+                <strong>Humor:</strong> feliz :)
+            </div>
+
+            <div class="profile-info">
+                <h2>Perfil</h2>
+                <p><strong>Interesses:</strong> Fazer amigos</p>
+                <p><strong>Músicas:</strong> euro disco</p>
+                <p><strong>Filmes:</strong> Ação</p>
+                <p><strong>Livros:</strong> conhecimento </p>
+                <p><strong>Esportes:</strong> Futebol, basket, muay thai</p>
+                <p><strong>Comidas:</strong> brasileira e churasco</p>
+            </div>
+
+            <div class="friends-box">
+                <h2>Amigos (9)</h2>
+                <div class="friends-grid">
+                    <div class="friend-item">
+                        <img class="friend-photo" src= https://media.santosfc.com.br/wp-content/uploads/2025/09/Neymar-Jr.jpeg>
+                        <p>neymar</p>
+                    </div>
+                    <div class="friend-item">
+                        <img class="friend-photo" src=https://s2-ge.glbimg.com/xG2Hqnh7x83lqM-gziMQ1uRMrRA=/0x0:1080x1350/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/B/0/Fcqr6IS3G5WjwbpNUVag/after-sauna-.jpg>
+                        <p>cr7</p>
+                    </div>
+                    <div class="friend-item">
+                        <img class="friend-photo" src=https://i.pinimg.com/736x/60/b3/19/60b3190d91f763dbb5a8908efa2ebe84.jpg>
+                        <p>messi</p>
+                    </div>
+                    <div class="friend-item">
+                        <img class="friend-photo" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAvTAFtnrTpmLsyqtzaa7AFdCAWLx8ZyPxKsFOuUG0HiUSiv4oXLb4h8&s=10>
+                        <p>virginia</p>
+                    </div>
+                    <div class="friend-item">
+                        <img class="friend-photo" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNwRigI6XCz4HUP-HKMdk0Mx2oQzNIFQNZBOJFSSFGzg&s=10>
+                        <p>vinicius junior</p>
+                    </div>
+                    <div class="friend-item">
+                        <img class="friend-photo" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTXJE00cXUenpb9xB866ZVkglwYQnE7OXPKtmOdYASGQ&s=10">
+                        <p>olise</p>
+                    </div>
+                    <div class="friend-item">
+                        <img class="friend-photo" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxojwcOJNSQvn06TPH-OaMNaDjgBpjJIVg7jdbO0UnyA&s=10>
+                        <p>cucurelha</p>
+                    </div>
+                    <div class="friend-item">
+                        <img class="friend-photo" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXtAQdIk895LJvfPNn2iF7PfsNyZrau9U9jlkGy7HJ9tUl4tV6a_S5t4PlAr-AZ6-P39O6wnNpF4XMmSnI987ez8lVtsZ9NnlIjPLUOUuK7Q&s=10>
+                        <p>marcelo</p>
+                    </div>
+                    <div class="friend-item">
+                        <img class="friend-photo" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrOgGYFBDS9OcZm1SNagq1eYKg8y0snytKWO-HVWvFijnFu6kgSjASWMI&s=10>
+                        <p>thaci gol</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
